@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<servlet>
+		<servlet-name>code</servlet-name>
+		<servlet-class>com.san.utils.Code</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>code</servlet-name>
+		<url-pattern>/code</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>
+		<servlet-name>showUsers</servlet-name>
+		<servlet-class>com.san.show.ShowUsers</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>showUsers</servlet-name>
+		<url-pattern>/showUsers</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>deletes</servlet-name>
+		<servlet-class>com.san.control.Deletes</servlet-class>
+	</servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginYanServlet</servlet-name>
+    <servlet-class>com.san.control.LoginYanServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterYanServlet</servlet-name>
+    <servlet-class>com.san.control.RegisterYanServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>retrievePwdServlet</servlet-name>
+    <servlet-class>com.san.control.RetrievePwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterYanAjaxServlet</servlet-name>
+    <servlet-class>com.san.control.RegisterYanAjaxServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterYanAjaxServlet1</servlet-name>
+    <servlet-class>com.san.control.RegisterYanAjaxServlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterYanAjaxServlet2</servlet-name>
+    <servlet-class>com.san.control.RegisterYanAjaxServlet2</servlet-class>
+  </servlet>
+
+
+
+	<servlet-mapping>
+		<servlet-name>deletes</servlet-name>
+		<url-pattern>/deletes</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginYanServlet</servlet-name>
+    <url-pattern>/loginYanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterYanServlet</servlet-name>
+    <url-pattern>/registerYanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>retrievePwdServlet</servlet-name>
+    <url-pattern>/retrievePwdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterYanAjaxServlet</servlet-name>
+    <url-pattern>/registerYanAjaxServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterYanAjaxServlet1</servlet-name>
+    <url-pattern>/registerYanAjaxServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterYanAjaxServlet2</servlet-name>
+    <url-pattern>/registerYanAjaxServlet2</url-pattern>
+  </servlet-mapping>
+	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

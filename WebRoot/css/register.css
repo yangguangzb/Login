@@ -1,0 +1,56 @@
+	.reg{
+		height:460px;
+		width:280px;
+		margin:100px auto;
+		border:1px solid #999;
+		padding-left:40px;
+	}
+	input[type=text],input[type=password]{
+		width:200px;
+		height:30px;
+	}
+	.tou{
+		width:64px;
+		height:64px;
+		text-align:center;
+		margin:20px 0;
+		margin-left:85px;
+	}
+	.user,.phone,.pwd,.mailbox{
+		width:200px;
+		height:35px;
+		margin-bottom:20px;
+	}
+	.userLeft,.pwdLeft,.phoneLeft,.mailboxLeft{
+		float:left;
+		height:35px;
+		width:32px;
+		background-repeat:no-repeat;
+	}
+	.userLeft{
+		background-image:url("../image/user.png");
+	}
+	.phoneLeft{
+		background-image:url("../image/phone.png");
+	}
+	.pwdLeft{
+		background-image:url("../image/pwd.png");
+	}
+	.mailboxLeft{
+		background-image:url("../image/mailbox.png");
+	}
+	.userRight,.phoneRight,.pwdRight,.mailboxRight{
+		height:35px;
+		width:168px;
+		float:left;
+	}
+	.registerButton,.chongButton{
+		height:35px;
+		width:235px;
+		margin-bottom:20px;
+		
+	}
+	//清除浮动
+	.clear{
+		clear:both;
+	}

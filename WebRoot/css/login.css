@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+		background-image:url("image/2.jpg");
+		background-size:cover;
+	}
+	
+	.login{
+		height:400px;
+		width:280px;
+		margin:100px auto;
+		border:1px solid #999;
+		padding-left:40px;
+	}
+	input[type=text],input[type=password]{
+		width:200px;
+		height:30px;
+	}
+	#kan{
+		text-decoration:none;
+		font-size:10px;
+	}
+	.tou{
+		width:64px;
+		height:64px;
+		text-align:center;
+		margin:20px 0;
+		margin-left:85px;
+	}
+	
+	
+	.user,.pwd,.code{
+		width:200px;
+		height:35px;
+		margin-bottom:20px;
+	}
+	.code{
+		width:300px;
+		height:35px;
+		margin-bottom:15px;
+	}
+	.userLeft,.pwdLeft,.codeLeft{
+		float:left;
+		height:35px;
+		width:32px;
+		background-repeat:no-repeat;
+	}
+	.userLeft{
+		background-image:url("../image/user.png");
+	}
+	.pwdLeft{
+		background-image:url("../image/pwd.png");
+	}
+	.codeLeft{
+		background-image:url("../image/code.png");
+	}
+	.userRight,.pwdRight{
+		height:35px;
+		width:168px;
+		float:left;
+	}
+	.codecentre{
+		height:35px;
+		width:147px;
+		float:left;
+	}
+	.codeRight{
+		height:35px;
+		width:60px;
+		float:left;
+	}
+	.remOrfor{
+		width:235px;
+		height:27px;
+	}
+	.rem{
+		float:left;
+	}
+	.for{
+		float:right;
+	}
+	.register{
+		margin-left:40px;
+		float:left;
+	}
+	.loginButton,.otherApp,.other{
+		height:35px;
+		width:235px;
+		
+	}
+	.other{
+		padding-top:10px;
+		text-align:center;
+		height:25px;
+	}
+	.appLeft,.appCentre,.appRight{
+		float:left;
+		width:78px;
+		text-align:center;
+	}
+	//清除浮动
+	.clear{
+		clear:both;
+	}
